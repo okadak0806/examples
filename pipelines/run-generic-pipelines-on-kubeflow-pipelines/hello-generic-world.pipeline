@@ -32,14 +32,14 @@
               "kubernetes_tolerations": [],
               "mounted_volumes": [],
               "filename": "load_data.ipynb",
-              "runtime_image": "continuumio/anaconda3@sha256:a2816acd3acda208d92e0bf6c11eb41fda9009ea20f24e123dbf84bb4bd4c4b8"
+              "runtime_image": "amancevice/pandas:jupyter-2.2.2"
             },
             "label": "Load weather data",
             "ui_data": {
               "label": "Load weather data",
               "image": "/static/elyra/notebook.svg",
-              "x_pos": 106,
-              "y_pos": 179.50000762939453,
+              "x_pos": 104,
+              "y_pos": 178.50000762939453,
               "description": "Run notebook file"
             }
           },
@@ -91,9 +91,8 @@
               "kubernetes_tolerations": [],
               "mounted_volumes": [],
               "filename": "Part 1 - Data Cleaning.ipynb",
-              "runtime_image": "continuumio/anaconda3@sha256:a2816acd3acda208d92e0bf6c11eb41fda9009ea20f24e123dbf84bb4bd4c4b8"
+              "runtime_image": "amancevice/pandas:jupyter-2.2.2"
             },
-            "label": "",
             "ui_data": {
               "label": "Part 1 - Data Cleaning.ipynb",
               "image": "/static/elyra/notebook.svg",
@@ -155,9 +154,8 @@
               "kubernetes_tolerations": [],
               "mounted_volumes": [],
               "filename": "Part 2 - Data Analysis.ipynb",
-              "runtime_image": "continuumio/anaconda3@sha256:a2816acd3acda208d92e0bf6c11eb41fda9009ea20f24e123dbf84bb4bd4c4b8"
+              "runtime_image": "amancevice/pandas:jupyter-2.2.2"
             },
-            "label": "",
             "ui_data": {
               "label": "Part 2 - Data Analysis.ipynb",
               "image": "/static/elyra/notebook.svg",
@@ -219,9 +217,8 @@
               "kubernetes_tolerations": [],
               "mounted_volumes": [],
               "filename": "Part 3 - Time Series Forecasting.ipynb",
-              "runtime_image": "continuumio/anaconda3@sha256:a2816acd3acda208d92e0bf6c11eb41fda9009ea20f24e123dbf84bb4bd4c4b8"
+              "runtime_image": "amancevice/pandas:jupyter-2.2.2"
             },
-            "label": "",
             "ui_data": {
               "label": "Part 3 - Time Series Forecasting.ipynb",
               "image": "/static/elyra/notebook.svg",
@@ -340,11 +337,11 @@
           "pipeline_defaults": {
             "kubernetes_tolerations": [],
             "kubernetes_pod_annotations": [],
-            "kubernetes_shared_mem_size": {},
             "kubernetes_pod_labels": [],
             "mounted_volumes": [],
-            "kubernetes_secrets": [],
-            "env_vars": []
+            "kubernetes_shared_mem_size": {},
+            "env_vars": [],
+            "kubernetes_secrets": []
           }
         }
       },
